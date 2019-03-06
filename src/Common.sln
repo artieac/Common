@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PucksAndProgramming.Core.Common", "Core\Core.Common\PucksAndProgramming.Core.Common.csproj", "{E7022D54-F87C-469B-9715-900D7800F761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PucksAndProgramming.Core.DataLayer.Dapper", "Core\DataLayer.Dapper\PucksAndProgramming.Core.DataLayer.Dapper.csproj", "{2A360DFA-9C2D-4BE0-905D-7ED9CBDBC687}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PucksAndProgramming.Core.DataLayer.EntityFramework", "Core\DataLayer.EntityFramework\PucksAndProgramming.Core.DataLayer.EntityFramework.csproj", "{46200E49-34C4-4D10-8CAA-03C04AA94B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PucksAndProgramming.Framework.Common", "Framework\AlwaysMoveForward.Common\PucksAndProgramming.Framework.Common.csproj", "{600387A0-6903-47FD-AA6C-9ADF4CFE491E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PucksAndProgramming.Framework.Common.DataLayer.NHibernate", "Framework\DataLayer.NHibernate\PucksAndProgramming.Framework.Common.DataLayer.NHibernate.csproj", "{EBC885F9-1659-4EB0-9AA1-3AE4DD9B27EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7022D54-F87C-469B-9715-900D7800F761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7022D54-F87C-469B-9715-900D7800F761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7022D54-F87C-469B-9715-900D7800F761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7022D54-F87C-469B-9715-900D7800F761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A360DFA-9C2D-4BE0-905D-7ED9CBDBC687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A360DFA-9C2D-4BE0-905D-7ED9CBDBC687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A360DFA-9C2D-4BE0-905D-7ED9CBDBC687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A360DFA-9C2D-4BE0-905D-7ED9CBDBC687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46200E49-34C4-4D10-8CAA-03C04AA94B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46200E49-34C4-4D10-8CAA-03C04AA94B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46200E49-34C4-4D10-8CAA-03C04AA94B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46200E49-34C4-4D10-8CAA-03C04AA94B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600387A0-6903-47FD-AA6C-9ADF4CFE491E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600387A0-6903-47FD-AA6C-9ADF4CFE491E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600387A0-6903-47FD-AA6C-9ADF4CFE491E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600387A0-6903-47FD-AA6C-9ADF4CFE491E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC885F9-1659-4EB0-9AA1-3AE4DD9B27EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC885F9-1659-4EB0-9AA1-3AE4DD9B27EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC885F9-1659-4EB0-9AA1-3AE4DD9B27EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC885F9-1659-4EB0-9AA1-3AE4DD9B27EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF6DEFF-41DF-4B6E-B15C-35934C8AD7D4}
+	EndGlobalSection
+EndGlobal
