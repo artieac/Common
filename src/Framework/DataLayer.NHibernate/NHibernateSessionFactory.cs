@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using NHibernate;
 using NHC = NHibernate.Cfg;
-using PucksAndProgramming.Framework.Common.Utilities;
+using PucksAndProgramming.Common.Utilities;
 using NHM = NHibernate.Mapping.Attributes;
 
-namespace PucksAndProgramming.Framework.Common.DataLayer.NHibernate
+namespace PucksAndProgramming.Common.DataLayer.NHibernate
 {
     public class NHibernateSessionFactory
     {

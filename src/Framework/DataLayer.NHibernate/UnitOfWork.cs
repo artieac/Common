@@ -6,10 +6,10 @@ using System.Data;
 using System.Reflection;
 using NHibernate;
 using NHC = NHibernate.Cfg;
-using PucksAndProgramming.Framework.Common;
-using PucksAndProgramming.Framework.Common.Utilities;
+using PucksAndProgramming.Common;
+using PucksAndProgramming.Common.Utilities;
 
-namespace PucksAndProgramming.Framework.Common.DataLayer.NHibernate
+namespace PucksAndProgramming.Common.DataLayer.NHibernate
 {
     /// <summary>
     /// A unit of work made to work with NHibernate transactions

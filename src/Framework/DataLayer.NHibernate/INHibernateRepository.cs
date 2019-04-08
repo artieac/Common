@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PucksAndProgramming.Framework.Common.DataLayer.NHibernate
+using PucksAndProgramming.Common.DataLayer;
+
+namespace PucksAndProgramming.Common.DataLayer.NHibernate
 {
     /// <summary>
     /// An interface to define common functions for an NHibernate repository
